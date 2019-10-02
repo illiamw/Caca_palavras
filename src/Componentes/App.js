@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Board from './Board';
 
 /**
  * @param {Null} Null  Null
@@ -7,10 +7,13 @@ import ReactDOM from 'react-dom';
  * @constructor
  */
 
-class App extends React.Component {
-    render() {
-      return <h1>Hello</h1>;
-    }
+export default class App extends React.Component {
+  render() {
+    return(
+      <div>
+        <h1>Hello</h1>
+        <Board/>
+      </div>
+    );
   }
-
-  export default App
+}

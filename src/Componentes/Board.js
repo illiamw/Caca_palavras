@@ -1,6 +1,6 @@
 import React from 'react';
 import Cell from './Cell';
-import gerenciador from './distribuicaoPalavras'
+import Gerenciador from './distribuicaoPalavras'
 
 export default class Board extends React.Component{
     /**
@@ -51,7 +51,7 @@ export default class Board extends React.Component{
             rowsBoard.push(this.renderCol(col,index));
         }
         console.log(rowsBoard);
-        //var fase1 = gerenciador(col,lin);
+        Gerenciador.gabarito(col,lin);
         return React.createElement('div', {className: "main-board"},rowsBoard);
         
     }
@@ -64,8 +64,7 @@ export default class Board extends React.Component{
         return(
             <div>
                 <div className="titulo">Esse é o tabuleiro</div>                
-                {this.renderBoard(10,10)}
-                
+                {this.renderBoard(10,10)}                
             </div>
         );
     }

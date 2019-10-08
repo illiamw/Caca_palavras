@@ -30,10 +30,8 @@ export default class Board extends React.Component{
                len = palavras[index].length;
             }            
         }
-        palavras.forEach(element => {
-            console.log(element.length);
-        });     
         console.log(palavras);  
+        
     }
 
     /**

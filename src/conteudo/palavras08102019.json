@@ -1,0 +1,1077 @@
+﻿    [
+        {
+            "informacao": "Hospedeiro ______: todo organismo no qual o parasita desenvolve alguma ou todas as suas fases larvais ou juvenis.",
+            "Resposta": "INTERMEDIÁRIO",
+            "Img": "1",
+            "nivel": 1,
+            "Help": "Hospedeiro intermediário é todo organismo no qual o parasita desenvolve alguma ou todas as suas fases larvais ou juvenis."
+        },
+        {
+            "informacao": "Nome genérico atribuído a todo ser vivo capaz de transmitir um agente infectante, capaz de infectar um organismo e/ ou transmitir uma doença.",
+            "Resposta": "VETOR",
+            "Img": "2",
+            "nivel": 1,
+            "Help": "É chamado de vetor todo ser vivo capaz de transmitir um agente infectante, capaz de infectar um organismo e/ ou transmitir uma doença."
+        },
+        {
+            "informacao": "Processo de destruir microorganismos de uma substância ou de um ambiente, por meios físicos ou químicos.",
+            "Resposta": "ESTERELIZAÇAO",
+            "Img": "3",
+            "nivel": 1,
+            "Help": "A esterelização é o processo de destruir microorganismos de uma substância ou de um ambiente, por meios físicos ou químicos."
+        },
+        {
+            "informacao": "Substâncias empregadas com o objetivo de manter os insetos afastados de um indivíduo e podem ser utilizadas como medida profilática de algumas doenças.",
+            "Resposta": "REPELENTES",
+            "Img": "4",
+            "nivel": 1,
+            "Help": "Os repelentes são substâncias empregadas com o objetivo de manter os insetos afastados de um indivíduo e podem ser utilizadas como medida profilática de algumas doenças."
+        },
+        {
+            "informacao": "Área redor da residência. Em algumas regiões, pode-se encontrar nessa área criação de animais, como por exemplo: galinhas e porcos. ",
+            "Resposta": "PERIDOMICILIAR",
+            "Img": "5",
+            "nivel": 1,
+            "Help": "É na área peridomiciliar que pode-se encontrar criação de animais, como por exemplo: galinhas e porcos. A presença desses animais pode atrair insetos hematófagos como por exemplo o barbeiro, vetor da Doença de Chagas."
+        },
+        {
+            "informacao": "Rede protetora contra insetos, que pode ser utilizado sobre as camas, portas e janelas.  Medida de prevenção contra algumas doenças transmitidas por insetos, como por exemplo, a Malária e a Doença de Chagas. ",
+            "Resposta": "MOSQUITEIRA",
+            "Img": "6",
+            "nivel": 1,
+            "Help": "A utilização de mosquiteiras sobre camas, portas e janelas é uma medida de prevenção contra algumas doenças transmitidas por insetos, como a Malária e Doença de Chagas."
+        },
+        {
+            "informacao": "Termo usado para definir a quantidade de parasitas presentes no sangue de um paciente.",
+            "Resposta": "PARASITEMIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Parasitemia é o termo usado para definir a quantidade de parasitas presentes no sangue de um paciente."
+        },
+        {
+            "informacao": "Reservatório ______: Indivíduo capaz de manter um parasita em seu organismo, sem desenvolver a doença. ",
+            "Resposta": "NATURAL",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Um reservatório natural de uma doença é um indivíduo capaz de manter um parasita em seu organismo, sem desenvolver a doença."
+        },
+        {
+            "informacao": "Doença ______: Classificação de algumas doenças, de acordo com o seu agente causador, um parasita.",
+            "Resposta": "PARASITARIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Doença parasitária é a classificação dada às doenças que possuem o parasita como agente causador."
+        },
+        {
+            "informacao": "______ natural: Transmissão na qual agente causador de uma doença é introduzido no organismo humano por meio do seu vetor infectado.",
+            "Resposta": "TRANSMISSAO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A transmissão natural ocorre quando o agente causador de uma doença é introduzido no organismo humano por meio do seu vetor infectado."
+        },
+        {
+            "informacao": "Fase ______:fase de uma doença na qual o paciente apresenta sintomas clínicos mais discretos, usualmente a resposta imunológica é bem elevada.",
+            "Resposta": "CRONICA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A fase crônica de uma doença é a fase na qual o paciente apresenta sintomas clínicos mais discretos, usualmente a resposta imunológica é bem elevada. "
+        },
+        {
+            "informacao": "Transmissão ______: Transmissões não naturais, onde o vetor não participa da transmissão, sendo ocasionada geralmente por algum descuido ou erro humano. ",
+            "Resposta": "CREPUSCULO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A transmissão induzida ocorre quando há transmissão não natural, onde o vetor não participa da transmissão, sendo ocasionada geralmente por algum descuido ou erro humano. "
+        },
+        {
+            "informacao": "Fase ______: fase de uma doença que surge após a infecção cujos sintomas clínicos são mais nítidos. É um período de definição: ou o paciente se cura ou passa para a fase crônica ou morre.  ",
+            "Resposta": "AGUDA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A fase aguda de uma doença surge após a infecção cujos sintomas clínicos são mais nítidos. É um período de definição: ou o paciente se cura ou passa para a fase crônica ou morre.  "
+        },
+        {
+            "informacao": "Hábito comportamental de alguns insetos, que faz com que eles exerçam uma atividade maior no período da noite.",
+            "Resposta": "NOTURNO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Alguns insetos têm hábitos de vida noturnos, ou seja exercem uma atividade maior no período da noite. "
+        },
+        {
+            "informacao": "Nome popular do inseto transmissor da Doença de Chagas. ",
+            "Resposta": "BARBEIRO",
+            "Img": "1",
+            "nivel": 1,
+            "Help": "O inseto transmissor da Doença de Chagas é tmabém conhecido popularmente como barbeiro. "
+        },
+        {
+            "informacao": "Alimento algumas vezes envolvido na transmissão por via oral da Doença de Chagas, quando consumido não pasteurizado. ",
+            "Resposta": "AÇAI",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "No Brasil houveram casos de transmissão da Doença de Chagas por via oral através da ingestão do caldo de cana e açaí, pois o barbeiro contaminado foi moído junto com o alimento."
+        },
+        {
+            "informacao": "Típica construção residencial que serve de abrigo para o inseto transmissor da Doença de Chagas. ",
+            "Resposta": "PAU-A-PIQUE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As casas de pau-a-pique servem de abrigo para o inseto transmissor da Doença de Chagas.  "
+        },
+        {
+            "informacao": "______ Chagas: nome do médico e cientista brasileiro que descobriu o agente causador e o transmissor da Doença de Chagas.  ",
+            "Resposta": "CARLOS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Carlos Chagas foi um médico e cientista brasileiro que descobriu o agente causador e o transmissor da Doença de Chagas.  "
+        },
+        {
+            "informacao": "Nome popular do vetor da Doença de Chagas no estado do Mato Grosso.  ",
+            "Resposta": "CHUPANÇA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "No Brasil, o inseto vetor da Doença de Chagas também é conhecido popularmente como: chupança, vum-vum ou procotó.  "
+        },
+        {
+            "informacao": "Nome popular do inseto vetor da Doença de Chagas no estado da Bahia  ",
+            "Resposta": "VUM-VUM",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "No Brasil, o inseto vetor da Doença de Chagas também é conhecido popularmente como: chupança, vum-vum ou procotó.  "
+        },
+        {
+            "informacao": "Nome popular do inseto vetor da Doença de Chagas na região do sertão da Paraíba.  ",
+            "Resposta": "PROCOTO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "No Brasil, o inseto vetor da Doença de Chagas também é conhecido popularmente como: chupança, vum-vum ou procotó.  "
+        },
+        {
+            "informacao": "Região brasileira com maior número de casos da Doença de Chagas, entre 2000 a 2011, de acordo com o Ministério da Saúde.  ",
+            "Resposta": "NORTE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "De acordo com o Ministério da Saúde, entre 2000 e 2011 a região brasileira com maior número da Doença de Chagas é a região norte.  "
+        },
+        {
+            "informacao": "Instituto ______ no qual o cientista que descobriu a Doença de Chagas trabalhava. É uma importante fundação de pesquisa da doença até hoje.  ",
+            "Resposta": "OSWALDOCRUZ",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O Instituto Oswaldo Cruz era onde o cientista que descobriu a Doença de Chagas trabalhava. É uma importante fundação de pesquisa da doença até hoje.  "
+        },
+        {
+            "informacao": "Tipo de construção de casas na zona rural que pode abrigar o Barbeiro, inseto transmissor da doença de Chagas.  ",
+            "Resposta": "TAIPA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As casas de taipa são típicas construções de zona rural que podem abrigar o barbeiro, inseto vetor da doença de Chagas.  "
+        },
+        {
+            "informacao": "Chagoma de ______: Sintoma da Doença de Chagas visível no local da picada do inseto Barbeiro.  ",
+            "Resposta": "INOCULAÇAO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O chagoma de inoculação é um sintoma da Doença de Chagas visível no local da picada do inseto Barbeiro.  "
+        },
+        {
+            "informacao": "Uma das complicações causadas na fase crônica da Doença de Chagas que atinge o coração.  ",
+            "Resposta": "MIOCARDITE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A miocardite é uma das complicações causadas na fase crônica da Doença de Chagas que atinge o coração.  "
+        },
+        {
+            "informacao": "Ambiente ______: Tipo de ambiente no qual habitam animais em ecossistemas naturais como florestas, rios e oceanos.   ",
+            "Resposta": "SILVESTRE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "É chamado de ambiente silvestre o tipo de ambiente no qual habitam animais em ecossistemas naturais como florestas, rios e oceanos.   "
+        },
+        {
+            "informacao": "Forma ______: Forma da Doença de Chagas que provoca alterações ao longo do trato digestório.  ",
+            "Resposta": "DIGESTIVA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A forma digestiva da Doença de Chagas provoca alterações ao longo do trato digestório.  "
+        },
+        {
+            "informacao": "Forma ______: Forma da Doença de Chagas que provoca complicações no coração.  ",
+            "Resposta": "CARDIACA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A forma cardíaca da Doença de Chagas  provoca complicações no coração.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "TREMEDEIRA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "BATEDEIRA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "MALEITA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "PALUDISMO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "FEBREPALUDICA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Nome popular da doença Malária.  ",
+            "Resposta": "FEBREPALUSTRE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Malária também é conhecida popularmente como tremedeira, batedeira, febre palustre, febre palúdica, maleita e paludismo.  "
+        },
+        {
+            "informacao": "Mosquito ______: Nome popular do mosquito vetor da Malária caracterizado pela forma peculiar com que ele pousa.  ",
+            "Resposta": "PREGO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O Mosquito vetor da Malária é também conhecido como Mosquito prego devido a forma peculiar com que ele pousa.  "
+        },
+        {
+            "informacao": "Nome popular do mosquito vetor da Malária comumente conhecido na região norte do país. ",
+            "Resposta": "CARAPANA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Na região norte do país o mosquito vetor da Malária é comumente conhecido como carapanã.  "
+        },
+        {
+            "informacao": "Criadouros ______: Locais naturalmente utilizados por mosquitos e outros insetos  para postura de seus ovos e desenvolvimento das larvas até a fase adulta.  ",
+            "Resposta": "NATURAIS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Os criadouros naturais são locais naturalmente utilizados por mosquitos e outros insetos  para postura de seus ovos e desenvolvimento das larvas até a fase adulta.  "
+        },
+        {
+            "informacao": "Criadouros ______: Locais criados pelo homem e utilizados pelos mosquitos e outros para postura de seus ovos e desenvolvimento das larvas até a fase adulta.  ",
+            "Resposta": "ARTIFICIAIS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Os criadouros artificiais são locais criados pelo homem e utilizados pelos mosquitos e outros para postura de seus ovos e desenvolvimento das larvas até a fase adulta.  "
+        },
+        {
+            "informacao": "______ legal: Área que engloba 9 estados brasileiros pertencentes à Bacia Amazônica com ocorrência das vegetações amazônicas.  ",
+            "Resposta": "AMAZONIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A amazônia legal é a área que engloba 9 estados brasileiros pertencentes à Bacia Amazônica com ocorrência das vegetações amazônicas, essa região é conhecida por ser endêmica para Malária.  "
+        },
+        {
+            "informacao": "Medida de prevenção contra Malária que utiliza a ______  de criadouros não permitindo acúmulos de água parada.  ",
+            "Resposta": "DRENAGEM",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Uma das medidas de prevenção contra Malária é a drenagem de criadouros não permitindo acúmulos de água parada.  "
+        },
+        {
+            "informacao": " Cursos de água amazônicos de pouca profundidade que ocorrem quase no interior da mata e podem servir como criadouros naturais de insetos transmissores de doenças.  ",
+            "Resposta": "IGARAPES",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Os igarapés são  cursos de água amazônicos de pouca profundidade que ocorrem quase no interior da mata e podem servir como criadouros naturais de insetos transmissores de doenças."
+        },
+        {
+            "informacao": "Forma do plasmódio resultante da reprodução assexuada chamada de esquizogonia.  ",
+            "Resposta": "ESQUIZONTE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O esquizonte é uma forma do plasmódio resultante da reprodução assexuada chamada de esquizogonia.  "
+        },
+        {
+            "informacao": "Doença dos ______: Nome popular pelo qual a Esquistossomose também é conhecida que está relacionado com o hospedeiro intermediário do parasita.  ",
+            "Resposta": "CARAMUJOS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A esquistossomose também é conhecida popularmente como doença do caramujo e está relacionado com o hospedeiro intermediário do parasita.  "
+        },
+        {
+            "informacao": "_____ d’água: Nome popular pelo qual a Esquistossomose também é conhecida que está relacionado com um sintoma bem característico da doença.  ",
+            "Resposta": "BARRIGA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A esquistossomose também é conhecida popularmente como barriga d´água, pois relaciona-se com o sintoma bem conhecida da doença.  "
+        },
+        {
+            "informacao": "Revestimento cutâneo do corpo, formado por tecido epitelial e tecido conjuntivo e é por onde as cercarias podem penetrar no nosso corpo.  ",
+            "Resposta": "PELE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As cercárias podem entrar no corpo humano através da pele e mucosas. "
+        },
+        {
+            "informacao": "Tecido epitelial de revestimento, que reveste as cavidades naturais do nosso corpo, por onde as cercarias podem penetrar.",
+            "Resposta": "MUCOSAS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As cercárias podem entrar no corpo humano através da pele e mucosas.  "
+        },
+        {
+            "informacao": "Órgão onde se aloja o casal de parasitas causadores da esquistossomose e se desenvolvem até a fase adulta.  ",
+            "Resposta": "FIGADO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O casal de parasitas causadores da esquistossomose se alojam no fígado e lá se desenvolvem até a fase adulta. "
+        },
+        {
+            "informacao": "Formas larvais do agente causador da Esquistossomose que podem nadar livremente, sendo a forma infectante do homem.  ",
+            "Resposta": "CERCARIAS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A forma infectante do agente causador da esquistossomose são as cercárias, formas larvais que podem nadar livremente.  "
+        },
+        {
+            "informacao": "Primeira forma larval do agente causador da Esquistossomose , sendo a forma infectante do hospedeiro intermediário.  ",
+            "Resposta": "MIRACIDIO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O miracídio é a primeira forma larval do agente causador da esquistossomose que infecta o caramujo.  "
+        },
+        {
+            "informacao": "Pesticidas utilizados no controle de moluscos, como as lesmas e caracóis.  ",
+            "Resposta": "MOLUSCICIDAS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Os moluscicidas são pesticidas utilizados no controle de moluscos, como lesmas e caracóis.   "
+        },
+        {
+            "informacao": "Ramo da Biologia que estuda os moluscos.  ",
+            "Resposta": "MALACOLOGIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A malacologia é o ramo da Biologia que estuda os moluscos.  "
+        },
+        {
+            "informacao": "Nome dado ao acúmulo de líquido no interior do abdômen, e é um dos sintomas visíveis da Esquistossomose entre outras doenças.  ",
+            "Resposta": "ASCITE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Ascite é o nome dado o acúmulo de líquido no interior do abdômen, e é um dos sintomas visíveis da Esquistossomose entre outras doenças.  "
+        },
+        {
+            "informacao": "Nome popular do hospedeiro intermediário do Schistosoma mansoni.  ",
+            "Resposta": "CARACOL",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O hospedeiro intermediário do Schistosoma mansoni é conhecido popularmente como caracol.  "
+        },
+        {
+            "informacao": "Nome popular do parasita causador da Esquistossomose.  ",
+            "Resposta": "VERME",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O parasita causador da Esquistossomose é conhecido popularmente como verme  "
+        },
+        {
+            "informacao": "Designação geral para os animais vulgarmente conhecidos como vermes que podem ser parasitas de animais e plantas.  ",
+            "Resposta": "HELMINTO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Helminto é uma designação geral para os animais vulgarmente conhecidos como vermes que podem ser parasitas de animais e plantas.  "
+        },
+        {
+            "informacao": "Gênero do protozoário causador da doença Leishmaniose.  ",
+            "Resposta": "LEISHMANIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Leishmania é o gênero do protozoário causador da doença Leishmaniose.  "
+        },
+        {
+            "informacao": "Nome genérico dado a quaisquer lesões superficiais em tecido cutâneo ou mucoso, popularmente denominadas feridas.  ",
+            "Resposta": "ULCERAS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As úlceras são quaisquer lesões superficiais em tecido cutâneo ou mucoso, popularmente denominadas feridas.  "
+        },
+        {
+            "informacao": "Úlcera de ______: Nome popular da Leishmaniose Tegumentar que é caracterizado por ter ocorrido à identificação dos primeiros casos da doença em Bauru.   ",
+            "Resposta": "BAURU",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Leishmaniose Tegumentar também é conhecida como Úlcera de Bauru por ter ocorrido à identificação dos primeiros casos da doença em Bauru.   "
+        },
+        {
+            "informacao": "______de tapir: Nome popular da Leishmaniose Tegumentar que é caracterizado pelas áreas da cartilagem ou mucosa em que a doença atinge o homem, que são: nariz, faringe, boca e laringe.   ",
+            "Resposta": "NARIZ",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Leishmaniose Tegumentar também é conhecida como Nariz de tapir devido as áreas que a doença atinge o homem: nariz, faringe, boca e laringe.  "
+        },
+        {
+            "informacao": "Mamífero carnívoro,  domesticado pelo homem que pode contrair Leishmaniose e servir de reservatório da doença.  ",
+            "Resposta": "CACHORRO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O cachorro pode contrair leishmaniose e servir de reservatório da doença.  "
+        },
+        {
+            "informacao": "Leishmaniose ______: Doença infecciosa, causada por protozoário do gênero Leishmania, de transmissão vetorial, que acomete pele e mucosas  ",
+            "Resposta": "TEGUMENTAR",
+            "Img": "N",
+            "nivel": 1,
+            "Help": " A Leishmaniose tegumentar é uma doença infecciosa, causada por protozoário do gênero Leishmania, de transmissão vetorial, que acomete pele e mucosas.  "
+        },
+        {
+            "informacao": "Doenças de animais que são transmissíveis ao homem.  ",
+            "Resposta": "ZOONOSES",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "As zoonoses são doenças de animais que são transmissíveis ao homem.  "
+        },
+        {
+            "informacao": "Forma de apressar a morte de um doente incurável, sem que esse sinta dor ou sofrimento. Muito usado no caso de Leishmaniose em cães domésticos.  ",
+            "Resposta": "EUTANÁSIA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": " A eutanásia é uma forma de apressar a morte de um doente incurável, sem que esse sinta dor ou sofrimento. Muito usado no caso de Leishmaniose em cães domésticos.  "
+        },
+        {
+            "informacao": "Nome popular da Leishmaniose Visceral, possui este nome por causar uma pigmentação escura na pele.  ",
+            "Resposta": "CALAZAR",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Leishmaniose Visceral, também é conhecida popularmente como Clazar, Febre Dundun ou Doença do cachorro.  "
+        },
+        {
+            "informacao": "Nome popular da Leishmaniose Visceral. ",
+            "Resposta": "FEBREDUNDUN",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Leishmaniose Visceral, também é conhecida popularmente como Clazar, Febre Dundun ou Doença do cachorro.  "
+        },
+        {
+            "informacao": "Nome popular da Leishmaniose Visceral caracterizado por ocorrer em cães domésticos.  ",
+            "Resposta": "DOENÇADOCACHORRO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A Leishmaniose Visceral, também é conhecida popularmente como Clazar, Febre Dundun ou Doença do cachorro.  "
+        },
+        {
+            "informacao": "Leishmaniose ______: Forma da doença na qual o parasita causador da leishmaniose migra para os órgãos viscerais como fígado, baço e medula óssea, caracterizada por febre de longa duração e anemia, dentre outras manifestações.  ",
+            "Resposta": "VISCERAL",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A leishmaniose visceral é a forma da doença na qual o parasita causador da leishmaniose migra para os órgãos viscerais como fígado, baço e medula óssea, caracterizada por febre de longa duração e anemia, dentre outras manifestações.  "
+        },
+        {
+            "informacao": "Mosquito ______: Nome popular do inseto transmissor da Leishmaniose.  ",
+            "Resposta": "PALHA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O mosquito transmissor da leishmaniose também é conhecido popularmente como mosquito palha, tatuquira ou birigui.  "
+        },
+        {
+            "informacao": "Nome popular do mosquito transmissor da Leishmaniose que é originário do Tupi que significa “mosca pequena”.  ",
+            "Resposta": "BIRIGUI",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O mosquito transmissor da leishmaniose também é conhecido popularmente como mosquito palha, tatuquira ou birigui.  "
+        },
+        {
+            "informacao": "Nome popular dado no Amazonas a um mosquitinho sugador de sangue transmissor da Leishmaniose, freqüentemente encontrado em buracos de tatu.  ",
+            "Resposta": "TATUQUIRA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O mosquito transmissor da leishmaniose também é conhecido popularmente como mosquito palha, tatuquira ou birigui.  "
+        },
+        {
+            "informacao": "Nome do gênero da bactéria causadora da doença Leptospirose.  ",
+            "Resposta": "LEPTOSPIRA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Leptospira é o nome do gênero da bactéria, agente causador da doença Leptospirose.  "
+        },
+        {
+            "informacao": "Nome popular da doença Leptospirose.  ",
+            "Resposta": "FEBREDOSPANTANOS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A leptospirose é conhecida popularmente como febre dos pântanos, febre outonal, febre dos sete dias ou doença dos porqueiros.  "
+        },
+        {
+            "informacao": "Nome popular da doença Leptospirose.  ",
+            "Resposta": "FEBREOUTONAL",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A leptospirose é conhecida popularmente como febre dos pântanos, febre outonal, febre dos sete dias ou doença dos porqueiros.  "
+        },
+        {
+            "informacao": "Nome popular da doença Leptospirose.  ",
+            "Resposta": "DOENÇADOSPORQUEIROS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "A leptospirose é conhecida popularmente como febre dos pântanos, febre outonal, febre dos sete dias ou doença dos porqueiros.  "
+        },
+        {
+            "informacao": "Águas residuais, que após a utilização humana, apresentam as suas características naturais alteradas.   ",
+            "Resposta": "ESGOTO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Em enchentes os dejetos de ratos de esgoto podem entrar nem contato com a população através das águas contaminadas que extravazam de bueiros.  "
+        },
+        {
+            "informacao": "Resultado de uma chuva que não foi suficientemente absorvida pelo solo e outras formas de escoamento, causando transbordamentos.  ",
+            "Resposta": "ENCHENTE",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Em enchentes os dejetos de ratos de esgoto podem entrar nem contato com a população através das águas contaminadas que extravazam de bueiros.  "
+        },
+        {
+            "informacao": "Resultado de uma chuva que não foi suficientemente absorvida pelo solo e outras formas de escoamento, causando transbordamentos.  ",
+            "Resposta": "INUNDAÇAO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Em enchentes os dejetos de ratos de esgoto podem entrar nem contato com a população através das águas contaminadas que extravazam de bueiros.  "
+        },
+        {
+            "informacao": "Órgãos do sistema excretor, tem função de filtrar dejetos do sangue, e os excretar, com água, na urina.  ",
+            "Resposta": "RINS",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "Em casos raros, a leptospirose evoluir e atacar os rins, causando sérios danos à esse e outros órgãos.  "
+        },
+        {
+            "informacao": "Nome popular do vetor da Leptospirose  ",
+            "Resposta": "RATO",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "O rato de esgosto, vetor da leptospirose, é conhecido cientificamente por Rattus rattus. "
+        },
+        {
+            "informacao": "A leptospira, bactéria causadora da leptospirose, é eliminada juntamente com a ______ do rato.  ",
+            "Resposta": "URINA",
+            "Img": "N",
+            "nivel": 1,
+            "Help": "É através  do contato com a urina do rato contaminada com a bactéria  do gênero Leptospira que o homem adquire leptospirose  "
+        },
+        {
+            "informacao": "Uma combinação de _____ como: amplicilina, doxiciclina e cloranfenicol são utilizados no tratamento da leptospirose. ",
+            "Resposta": "ANTIBIOTICOS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Amplicilina, Doxiciclina e Clorafenicol são antibióticos utilizados no tratamento da leptospirose.  "
+        },
+        {
+            "informacao": "Técnica de esterilização que expõe superfícies e/ou substâncias, sob a ação de calor úmido, eliminando ou diminuindo acentuadamente o número de microrganismos. ",
+            "Resposta": "PASTEURIZAÇAO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A pasteurização é uma técnica de esterilização utilizada em superfícies e/ ou substâncias para diminuir o número de microorganismos."
+        },
+        {
+            "informacao": "Método de eliminação de insetos, utilizando processos químicos, físicos e/ou biológicos. ",
+            "Resposta": "DESINSETIZAÇAO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A desinsetização é um método para eliminar insetos que utiliza processos químicos, físicos e/ ou biológicos."
+        },
+        {
+            "informacao": "Classificação de algumas doenças, de acordo com o seu agente causador, um parasita.",
+            "Resposta": "PARASITARIA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "As doenças parasitárias recebem esse nome por envolverem um hospedeiro e um parasita."
+        },
+        {
+            "informacao": "Termo aplicado a um conjunto de doenças  que ocorrem em países onde há indíces de pobreza acentuada, saúde pública precária e falta de saneamento básico.",
+            "Resposta": "NEGLIGENCIADAS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "As doenças negligenciadas ocorrem em países onde há indíces de pobreza acentuada, saúde pública precária e falta de saneamento básico.  "
+        },
+        {
+            "informacao": "Denominação de área onde ocorre uma doença e transmissão da mesma. ",
+            "Resposta": "ENDEMICAS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A área endêmica de uma doença é uma área geográfica reconhecida de transmissão para uma determinada doença."
+        },
+        {
+            "informacao": "RNome genérico dado ao agente causador de uma doença.  ",
+            "Resposta": "ETIOLOGICO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O agente causador de uma doença é também chamado de agente etiológico."
+        },
+        {
+            "informacao": "Classificação de algumas doenças em que o paciente apresenta uma série de sintomas característicos de muitas doenças ",
+            "Resposta": "OLIGOSSINTOMATICAS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Algumas doenças chamadas de oligossintomáticas são conhecidas por causarem no paciente uma série de sintomas característicos de muitas doenças. "
+        },
+        {
+            "informacao": "Nome dado a alguns insetos e outros animais ingerem sangue como alimento. ",
+            "Resposta": "HEMATOFAGO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Insetos e outros animais que utilizam o sangue como alimento são conhecidos como hematófagos."
+        },
+        {
+            "informacao": "Período de ______: Tempo entre a exposição ao agente causador de uma doença e a manifestação dos primeiros sintomas. ",
+            "Resposta": "INCUBAÇAO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Tempo entre a exposição ao agente causador de uma doença e a manifestação dos primeiros sintomas é conhecido como período de incubação."
+        },
+        {
+            "informacao": "Doença que evolui sem que o paciente apresente sintomas característicos. ",
+            "Resposta": "ASSINTOMATICA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Uma doença assintomática é aquela que evolui sem que o paciente apresente sintomas característicos."
+        },
+        {
+            "informacao": "Conjunto de medidas que tem como finalidade prevenir ou evitar a propagação de doenças. ",
+            "Resposta": "PROFILAXIA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A profilaxia é um conjunto de medidas que tem como finalidade prevenir ou evitar a propagação de doenças."
+        },
+        {
+            "informacao": "Sintoma da Doença de Chagas que se caracteriza pelo inchaço das pálpebras do indivíduo contaminado.",
+            "Resposta": "SINALDEROMANA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O Sinal de Romaña é um sintoma da Doença de Chagas que se caracteriza pelo inchaço das pálpebras do indivíduo contaminado."
+        },
+        {
+            "informacao": "Gênero taxonômico do inseto vetor da Doença de Chagas.",
+            "Resposta": "TRIATOMA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os gêneros taxonômicos do inseto vetor da Doença de Chagas são: Triatoma sp., Rhodnius sp. e Panstrongylus sp."
+        },
+        {
+            "informacao": "Gênero taxonômico do inseto vetor da Doença de Chagas. ",
+            "Resposta": "RHODNIUS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os gêneros taxonômicos do inseto vetor da Doença de Chagas são: Triatoma sp., Rhodnius sp. e Panstrongylus sp."
+        },
+        {
+            "informacao": "Gênero taxonômico do inseto vetor da Doença de Chagas.",
+            "Resposta": "PANSTRONGYLUS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os gêneros taxonômicos do inseto vetor da Doença de Chagas são: Triatoma sp., Rhodnius sp. e Panstrongylus sp."
+        },
+        {
+            "informacao": "Medicamento que combate a fase aguda da Doença de Chagas. ",
+            "Resposta": "BENZONIDAZOL",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O Benzonidazol e Nifurtimox são medicamentos que combatem a fase aguda da Doença de Chagas."
+        },
+        {
+            "informacao": "Medicamento que combate a fase aguda da Doença de Chagas. ",
+            "Resposta": "NIFURTIMOX",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O Benzonidazol e Nifurtimox são medicamentos que combatem a fase aguda da Doença de Chagas."
+        },
+        {
+            "informacao": "Alimento que já esteve envolvido na transmissão por via oral da Doença de Chagas, pois o barbeiro contaminado foi moido junto com a cana.",
+            "Resposta": "CALDODECANA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "No Brasil houveram casos de transmissão da Doença de Chagas por via oral através da ingestão do caldo de cana e açaí, pois o barbeiro contaminado foi moído junto com o alimento."
+        },
+        {
+            "informacao": "Doença _____ adquirida pela criança, ainda dentro do útero da mãe. Há relatos sobre a transmissão da Doença de Chagas por esta via.",
+            "Resposta": "CONGENITA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Uma doença congênita é aquela adquirida pela criança, ainda dentro do útero da mãe. Há relatos sobre a transmissão da Doença de Chagas por esta via.   "
+        },
+        {
+            "informacao": "Nome científico do protozoário causador da Doença de Chagas.",
+            "Resposta": "TRYPANOSOMACRUZI",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O protozoário causador da Doença de Chagas é Trypanosoma cruzi."
+        },
+        {
+            "informacao": "Nome popular do inseto transmissor da Doença de Chagas nos países andinos. ",
+            "Resposta": "VICHUNCAS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O inseto transmissor da Doença de Chagas é conhecido popularmente nos países andinos como Vichuncas."
+        },
+        {
+            "informacao": "Nome popular do inseto transmissor da Doença de Chagas no México.",
+            "Resposta": "CINCHAVOLADORA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O inseto transmissor da Doença de Chagas é conhecido popularmente no México como Chincha Voladora ."
+        },
+        {
+            "informacao": "Alteração do sistema digestório, ao nível do esôfago, que pode ser encontrada em casos crônicos da Doença de Chagas.",
+            "Resposta": "MEGAESOFAGO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O megaesôfago se caracteriza por alterações ao longo do sistema digestório, ao nível do esôfago, que podem ocorrer em casos crônicos da Doença de Chagas."
+        },
+        {
+            "informacao": "Alteração do sistema digestório, ao nível do intestino, que pode ser encontrada em casos crônicos da Doença de Chagas.",
+            "Resposta": "MEGACOLON",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O megacólon se caracteriza por alterações ao longo do sistema digestório, ao nível do intestino, que podem ocorrer em casos crônicos da Doença de Chagas."
+        },
+        {
+            "informacao": "Estágio de desenvolvimento do Trypanosoma cruzi presente no sangue do indivíduo contaminado.",
+            "Resposta": "TRIPOMASTIGOTA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "No sangue do indivíduo com a Doença de Chagas, o Trypanosoma cruzi é encontrado no sangue na forma de tripomastigota."
+        },
+        {
+            "informacao": "Gênero do protozoário parasita causador da Malária.",
+            "Resposta": "PLASMODIUM",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O gênero do parasita causador da malária é Plasmodium sp."
+        },
+        {
+            "informacao": "Gênero do mosquito, inseto vetor Malária.",
+            "Resposta": "ANOPHELES",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Conteudo da dica"
+        },
+        {
+            "informacao": "Espécie mais comum do agente causador da Malária mais comum no Brasil.",
+            "Resposta": "PLASMODIUMVIVAX",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Alguns exemplos de diferentes espécies de protozoários causadores da malária: Plasmodium vivax, Plasmodium faciparum, Plasmodium ovale e Plasmodium malarae."
+        },
+        {
+            "informacao": "Espécie do agente causador da doença Malária que causa a forma mais perigosa desta doença.",
+            "Resposta": "PLASMODIUMFALCIPARUM",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Alguns exemplos de diferentes espécies de protozoários causadores da malária: Plasmodium vivax, Plasmodium faciparum, Plasmodium ovale e Plasmodium malarae."
+        },
+        {
+            "informacao": "Espécie do agente causador da doença Malária que é a mais rara e difícil de ocorrer. ",
+            "Resposta": "PLASMODIUMMALARIAE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Alguns exemplos de diferentes espécies de protozoários causadores da malária: Plasmodium vivax, Plasmodium faciparum, Plasmodium ovale e Plasmodium malarae."
+        },
+        {
+            "informacao": "Espécie do agente causador da doença Malária que ocorre na África.",
+            "Resposta": "PLASMODIUMOVALE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Alguns exemplos de diferentes espécies de protozoários causadores da malária: Plasmodium vivax, Plasmodium faciparum, Plasmodium ovale e Plasmodium malarae."
+        },
+        {
+            "informacao": " Tipo de febre característica da Malária, ocorre a cada 48 horas.",
+            "Resposta": "TERÇA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A febre terçã é um sintoma da Malária caracterizado por ciclos de febre a cada 48 horas"
+        },
+        {
+            "informacao": "Febre que ocorre a cada 72 horas na doença malária, quando causada pelo Plasmodium malariae.",
+            "Resposta": "QUARTA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A febre quartã é um sintoma da Malária caracterizado por ciclos de febre a cada 72 horas"
+        },
+        {
+            "informacao": "Caracteriza-se pela cor amarelada da pele, mucosas e olhos, devido ao excesso de bilirrubina no sangue, cuja causa mais comum é a destruição das hemácias.",
+            "Resposta": "ICTERICIA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A icterícia é um sintoma comum de algumas doenças caracterizada pela cor amarelada da pele, mucosas e olhos, devido ao excesso de bilirrubina no sangue, cuja causa mais comum é a destruição das hemácias."
+        },
+        {
+            "informacao": "Substância utilizada para tratamento da malária, extraído da árvore de Quina e de outras plantas.",
+            "Resposta": "QUININA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A quinina é extraída da árvore de Quina e conhecida por ser um composto utilizado contra a malária."
+        },
+        {
+            "informacao": "Um dos medicamentos usados como antimaláricos, originalmente extraída de plantas.",
+            "Resposta": "ARTEMISINA",
+            "Img": "N",
+            "nivel": 2, 
+            "Help": "A artemisinina é um dos medicamentos usados no tratamento da Malária."
+        },
+        {
+            "informacao": "Espécie do mosquito vetor da Malária mais comum no Brasil.",
+            "Resposta": "ANOPHELESDARLINGI",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A espécie Anopheles darlingi  do mosquito transmissor da Malária é a mais comum no Brasil./Help"
+        },
+        {
+            "informacao": "Remédio utilizado preventivamente contra a doença Malária. ",
+            "Resposta": "PROGUANIL",
+            "Img": "N",
+            "Help": "Os medicamentos Proguanil, Pirimetamina e Tetraciclina são medicamentos utilizados na prevenção e/ ou tratamento da Malária. "
+        },
+        {
+            "informacao": "Um dos remédios utilizados como prevenção da Malária.",
+            "Resposta": "PIRIMETALINA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os medicamentos Proguanil, Pirimetamina e Tetraciclina são medicamentos utilizados na prevenção e/ ou tratamento da Malária. "
+        },
+        {
+            "informacao": "Antibiótico que também pode ser usado em combinação com os remédios antimaláricos.",
+            "Resposta": "TETRACICLINA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os medicamentos Proguanil, Pirimetamina e Tetraciclina são medicamentos utilizados na prevenção e/ ou tratamento da Malária."
+        },
+        {
+            "informacao": "Uma das formas do ciclo de vida do plasmódio que consegue penetrar nas  hemácias.",
+            "Resposta": "MEROZOITO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O merozoíto é uma das formas que o parasita causador da Malária possui durante seu ciclo de vida, encontrada no sangue, que consegue penetrar nas hemácias.  "
+        },
+        {
+            "informacao": "Forma do plasmódio, presente nas glândulas salivares do mosquito, que é inoculada no homem. ",
+            "Resposta": "ESPORPZOITO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O ciclo da Malária no homem começa quando um mosquito fêmea contaminado inocula plasmódios na forma de esporozoítos a partir de sua glândula salivar."
+        },
+        {
+            "informacao": "Forma do plasmódio encontrada dentro de hemácias, com aspecto de anel, sendo o aro formado pelo citoplasma e a pedra representada pelo núcleo do parasito.",
+            "Resposta": "TROFOZOITO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O Trofozoíto é uma das formas que o parasita causador da Malária possui durante seu ciclo de vida, encontrada no interior da hemácias, com aspecto de anel.a"
+        },
+        {
+            "informacao": "Nome científico do agente causador da Esquistossomose.",
+            "Resposta": "SCHISTOSOMAMANSONI",
+            "Img": "N",
+            "Help": "O nome científico do agente causador da Esquistossomose é  Schistosoma mansoni."
+        },
+        {
+            "informacao": "Nome popular pelo qual a esquistossomose também é conhecida.",
+            "Resposta": "XISTOSE",
+            "Img": "N",
+            "Help": "A Esquistossomose também é conhecida popularmente como xistose ou xistossomose./Help"
+        },
+        {
+            "informacao": "Qualquer reação inflamatória da pele, também ocorre quando as cercárias penetram na pele do homem.",
+            "Resposta": "DERMATITE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Dermatite cercariana é uma reação inflamatória em resposta a pebetração das cercárias na pele do homem. "
+        },
+        {
+            "informacao": "Espécie do hospedeiro intermediário mais comum da esquistossomose encontrada onde há focos da doença.",
+            "Resposta": "BIOMPHALARIAGLABRATA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Biomphalaria glabrata é a espécie do hospedeiro intermediário mais comum da esquistossomose encontrada onde há focos da doença."
+        },
+        {
+            "informacao": "Espécie do hospedeiro intermediário da esquistossomose encontrada em todo Brasil, com exceção dos estados do Amapá e Rondônia.",
+            "Resposta": "BIOMPHALARIASTRAMINEA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Biomphalaria straminea é a espécie do hospedeiro intermediário da esquistossomose encontrada em todo Brasil, com exceção dos estados do Amapá e Rondônia."
+        },
+        {
+            "informacao": "Espécie do hospedeiro intermediário da esquistossomose encontrada principalmente na região sul e sudeste do país.",
+            "Resposta": "BIOMPHALARIATENAGOPHILA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Biomphalaria tenagophila é a espécie do hospedeiro intermediário da esquistossomose encontrada principalmente na região sul e sudeste do país."
+        },
+        {
+            "informacao": "Nome científico que significa exame de fezes, serve para diagnosticar doenças e parasitoses intestinais.",
+            "Resposta": "COPROSCOPICO",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O exame de fezes ou exame coproscópico serve para diagnosticar doenças e parasitoses intestinais. Esse exame é utilizado no diagnóstico da esquistossomose."
+        },
+        {
+            "informacao": "Aspecto pastoso das fezes de cor escura e muito mal cheirosa, que pode aparecer como um dos sintomas de Esquistossomose. Também pode aparecer  em outras doenças.",
+            "Resposta": "MELENA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Melena se refere ao aspecto pastoso das fezes de cor escura e mal cheirosas, caracterizado como um dos sintomas da Esquistossomose entre outras doenças."
+        },
+        {
+            "informacao": "Classe que pertence alguns dos vermes parasitas do ser humano, incluindo o agente causador da esquistossomose.",
+            "Resposta": "TREMADOMA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O parasita causador da esquistossomose  pertence a classe trematoda, assim como outros vermes parasitas do ser humano."
+        },
+        {
+            "informacao": "Formas unicelulares que produzem esporos assexuados. Na esquistossomose essa forma se aloja nos tecidos moles do caramujo e se divide assexuadamente aumentando o número de parasitas.",
+            "Resposta": "ESPOROCISTOS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Os esporocistos são formas unicelulares que produzem esporos assexuados. Na esquistossomose essa forma se aloja nos tecidos moles do caramujo e se divide assexuadamente aumentando o número de parasitas."
+        },
+        {
+            "informacao": "Botão do ______, nome popular pelo qual é chamada a Leishmaniose Cutânea ou Leishmaniose Tegumentar.",
+            "Resposta": "ORIENTE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A Leishmaniose cutânea  é conhecida popularmente como botão do Oriente."
+        },
+        {
+            "informacao": "Espécie de Leishmania que tem ampla distribuição, do sul do Pará ao Nordeste, atingindo também o centro-sul do país e algumas áreas da Amazônia Oriental.",
+            "Resposta": "LEISHMANIABRAZILIENSIS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "O exame de fezes ou exame coproscópico serve para diagnosticar doenças e parasitoses intestinais. Esse exame é utilizado no diagnóstico da esquistossomose."
+        },
+        {
+            "informacao": "Espécie de Leishmania que esta distribuída principalmente pelas florestas da Amazônia, particularmente em áreas de igapó.",
+            "Resposta": "LEISHMANIAAMAZONENSIS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Leishmania amazonensis é a espécie de Leishmania que esta distribuída principalmente pelas florestas da Amazônia, particularmente em áreas de igapó. "
+        },
+        {
+            "informacao": "Espécie de Leishmania aparentemente limitada ao norte da Bacia Amazônica e estendendo-se pelas Guianas. É encontrada principalmente em florestas de terra firme.",
+            "Resposta": "LEISHMANIAGUYANENSIS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Leishmania guyanensis é a espécie de Leishmania aparentemente limitada ao norte da Bacia Amazônica e estendendo-se pelas Guianas. É encontrada principalmente em florestas de terra firme."
+        },
+        {
+            "informacao": "Botão do ______, nome popular pelo qual é chamada a Leishmaniose Cutânea ou Leishmaniose Tegumentar.",
+            "Resposta": "ORIENTE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A Leishmaniose cutânea  é conhecida popularmente como botão do Oriente."
+        },
+        {
+            "informacao": "Família taxonômica do mosquito transmissor da leishmaniose.",
+            "Resposta": "PHLEBOTOMIDAE",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Phlebotomidae é o nome da família taxonômica do mosquito transmissor da Leishmaniose."
+        },
+        {
+            "informacao": "Gênero do mosquito transmissor da leishmaniose. ",
+            "Resposta": "LUTZOMYA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Lutzomya é o gênero do mosquito transmissor da leishmaniose."
+        },
+        {
+            "informacao": "Principal espécie de Leishmania que causa leishmaniose visceral no Brasil.",
+            "Resposta": "LEISHMANIACHAGASI",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A Leishmania chagasi é a principal espécie do parasita que causa leishmaniose visceral no Brasil."
+        },
+        {
+            "informacao": "Nome científico do cão doméstico que pode contrair e servir de reservatório da doença Leishmaniose.",
+            "Resposta": "CANISFAMILIARIS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Canis familiaris é o nome científico do cão doméstico que pode contrair e servir de reservatório da doença Leishmaniose."
+        },
+        {
+            "informacao": "Nome cientifico do Gambá animal que serve de reservatório para a Leishmaniose",
+            "Resposta": "DIDELPHISMUCURA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Didelphis mucura é o nome cientifico do Gambá animal que serve de reservatório para a Leishmaniose."
+        },
+        {
+            "informacao": "Termo usado para definir a eliminação da Leptospira pela urina.",
+            "Resposta": "LEPTOSPIRURIA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "A leptospirúria é a eliminação da bactéria causadora da leptospirose pela urina."
+        },
+        {
+            "informacao": "Um dos tipos de antibióticos que pode ser usado para tratamento da Leptospirose em sua fase tardia.",
+            "Resposta": "AMPLICILINA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Amplicilina, Doxiciclina e Clorafenicol são antibióticos utilizados no tratamento da leptospirose."
+        },
+        {
+            "informacao": "Um dos tipos de antibióticos que pode ser usado para tratamento da Leptospirose em sua fase precoce.",
+            "Resposta": "DOXICICLINA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Amplicilina, Doxiciclina e Clorafenicol são antibióticos utilizados no tratamento da leptospirose."
+        },
+        {
+            "informacao": "Um dos tipos de antibióticos que pode ser usado para tratamento da Leptospirose em sua fase tardia.",
+            "Resposta": "CLORAFENICOL",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Amplicilina, Doxiciclina e Clorafenicol são antibióticos utilizados no tratamento da leptospirose."
+        },
+        {
+            "informacao": "Nome científico de pequenos roedores conhecidos popularmente como: camundongo, rato doméstico ou murganho.",
+            "Resposta": "MUSMUSCULUS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Mus musculus é o nome científico de pequenos roedores conhecidos popularmente como: camundongo, rato doméstico ou murganho."
+        },
+        {
+            "informacao": "Nome científico de roedores conhecidos popularmente como: rato preto, rato de telhado, rato de esgoto ou rato inglês.",
+            "Resposta": "RATTUSRATTUS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Rattus rattus é o nome científico de roedores conhecidos popularmente como: rato preto, rato de telhado, rato de esgoto ou rato inglês."
+        },
+        {
+            "informacao": "Pesquisador que em 1886 descreveu  a doença Leptospirose, caracterizada por icterícia, esplenomegalia e nefrite. Em sua homenagem a doença ficou conhecida como Sindrome de _____",
+            "Resposta": "WEIL",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Pesquisador que em 1886 descreveu  a doença Leptospirose, caracterizada por icterícia, esplenomegalia e nefrite. Em sua homenagem a doença ficou conhecida como Sindrome de Weil."
+        },
+        {
+            "informacao": "Nome da espécie mais comum da bactéria causadora da Leptospirose.",
+            "Resposta": "LEPTOSPIRAINTERROGANS",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Leptospira interrogans é o nome da espécie mais comum da bactéria causadora da Leptospirose."
+        },
+        {
+            "informacao": "Nome atribuído à fase aguda da doença Leptospirose, ocorre a reprodução acentuada da bacteria na corrrente circulatória.",
+            "Resposta": "SEPTICEMICA",
+            "Img": "N",
+            "nivel": 2,
+            "Help": "Fase septicêmica é o nome atribuído à fase aguda da doença Leptospirose, ocorre a reprodução acentuada da bacteria na corrrente circulatória."
+        }
+    ]

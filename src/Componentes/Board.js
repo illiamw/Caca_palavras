@@ -9,8 +9,8 @@ export default class Board extends React.Component {
         var Gerenciador = new Construtor(props);
         this.state = {
             gerenciador: Gerenciador,
-            conteudo: Gerenciador.geradorChar(props.colunas*props.linhas),
-            gabarito: Gerenciador.geradorGabarito(props.colunas,props.linhas), 
+            gabarito: Gerenciador.geradorGabarito(props.colunas,props.linhas),
+            conteudo: Gerenciador.geradorChar(props.colunas*props.linhas)          
             
         };
         console.log(this.state.conteudo);
@@ -18,6 +18,9 @@ export default class Board extends React.Component {
     }
 
     eventoUpdate(c) {
+        console.log(this.state.gabarito[c]);
+        console.log(this.state.gabarito);
+        console.log(this.state.tentativas);
         this.state.gabarito[c] = this.state.gabarito[c] === 0 ? this.state.conteudo[c] : 0;
         console.log(this.state.gabarito[c]);
         console.log(this.state.gabarito);
@@ -31,6 +34,7 @@ export default class Board extends React.Component {
      * @returns {ElementDOM} <div><button>1</button></div>
      */
     renderCells(i, j) {
+        console.log("gerando celula");
         // {""+i+j} conversão compactada para string
         return <Cell
             value={this.state.conteudo[parseInt("" + j + i)]}
@@ -46,6 +50,7 @@ export default class Board extends React.Component {
      * @returns {ElementDOM} <div><button>1</button><button>...</button><button>lin</button></div>
      */
     renderCol(col, lin) {
+        console.log("gerando colunas");
         var colBoard = [];
 
         for (let index = 0; index < col; index++) {
@@ -60,8 +65,10 @@ export default class Board extends React.Component {
      * @returns {ElementDOM} <div><button>1</button><button>...</button><button>lin</button></div><div><button>1</button><button>...</button><button>lin</button></div><div><button>1</button><button>...</button><button>lin</button></div>
      */
     renderBoard(col, lin) {
+        console.log("Gerando tabuleiro " + lin);
         var rowsBoard = [];
         for (let index = 0; index < lin; index++) {
+            console.log("requendo coluna");
             rowsBoard.push(this.renderCol(col, index));
         }
         return React.createElement('div', { className: "main-board" }, rowsBoard);
@@ -75,7 +82,8 @@ export default class Board extends React.Component {
         return (
             <div>
                 <div className="titulo">Esse é o tabuleiro</div>
-                {this.renderBoard(this.state.colunas, this.state.linhas)}
+                {console.log(this.props.linhas)}
+                {this.renderBoard(this.props.colunas, this.props.linhas)}
             </div>
         );
     }

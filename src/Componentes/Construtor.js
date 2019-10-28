@@ -1,5 +1,6 @@
 import React from 'react';
 import Data from '../conteudo/palavras08102019';
+import { switchCase } from '@babel/types';
 export default class Construtor extends React.Component {
     constructor(props) {
         super(props);
@@ -7,7 +8,7 @@ export default class Construtor extends React.Component {
         this.linhas = props.linhas;
         this.tentativas = this.vetorPosibilidades();
         this.gabarito = Array(this.colunas * this.linhas).fill(0)
-        console.log(this.tentativas.sort());
+        console.log(this.tentativas);
         console.log(this.gabarito);
     }
     criandoLevel(col, lin) {
@@ -15,95 +16,149 @@ export default class Construtor extends React.Component {
         this.state.linhas = lin;
     }
 
-    testOcupa(rot,possibilidade,palavra){
+    testOcupa(rot, possibilidade, palavra) {
+        var finalposicao;
+        var inicialposicao = possibilidade;
         switch (rot) {
             case 0:
                 //horizontal
-                if(possibilidade+palavra.length > this.colunas*this.linhas) return false;
-                let finalposicao = palavra.length + possibilidade;
-                let inicialposicao = possibilidade;
-                console.log(finalposicao+"  "+inicialposicao);
-                for (let index = inicialposicao; index < finalposicao; index++) {if(this.gabarito[index] != 0) return true;  console.log(this.gabarito[index]); }                 
-                console.log("--------------------------é pra colocar");
-                
-                for (let index = inicialposicao; index < finalposicao; index++) {
-                    this.gabarito[index] = palavra[index-possibilidade];
-                    console.log(palavra[index-possibilidade]);
+                finalposicao = palavra.length + possibilidade;
+
+                if (finalposicao > this.colunas * this.linhas) return true;
+
+
+                for (let index = inicialposicao; index < finalposicao; index++) if (this.gabarito[index] != 0 && this.gabarito[index] != palavra[index - possibilidade]) return true;
+
+
+                for (let index = inicialposicao, inpalavras = 0; index < finalposicao; index++ , inpalavras++) {
+                    this.gabarito[index] = palavra[inpalavras];
                 }
-                this.tentativas.pop();
-                console.log("------------------------ Colocou -------------------------");
+                //this.tentativas.pop();
+                console.log("horizontal " + this.tentativas.length);
                 return false;
-                
+
 
                 break;
             case 1:
                 //vertical
+                finalposicao = (palavra.length * this.colunas) + possibilidade;
+
+                if (finalposicao > this.colunas * this.linhas) return true;
+                for (let index = inicialposicao; index < finalposicao; index += this.colunas) {
+                    if (this.gabarito[index] != 0 && this.gabarito[index] != palavra[index - possibilidade]) return true;
+                }
+
+                for (let index = inicialposicao, inpalavras = 0; index < finalposicao; index += this.colunas, inpalavras++) {
+                    this.gabarito[index] = palavra[inpalavras];
+                }
+                //this.tentativas.pop();
+                console.log("vertical " + this.tentativas.length);
+                return false;
+
                 break;
             case 2:
                 //diagonal
+                //vertical
+                finalposicao = palavra.length + possibilidade;
+                finalposicao = (palavra.length * this.colunas) + finalposicao;
+
+                if (finalposicao > this.colunas * this.linhas) return true;
+                for (let index = inicialposicao, inpalavras = 0; index < finalposicao; index += this.colunas + 1, inpalavras) {
+                    if (this.gabarito[index] != 0 && this.gabarito[index] != palavra[inpalavras]) return true;
+                }
+
+                for (let index = inicialposicao, inpalavras = 0; index < finalposicao; index += this.colunas + 1, inpalavras++) {
+                    this.gabarito[index] = palavra[inpalavras];
+                }
+                //this.tentativas.pop();
+                console.log("diagonal " + this.tentativas.length);
+                return false;
                 break;
             default:
-                console.log("Erro de rotação");               
+                console.log("Erro de rotação");
 
         }
+
         //Manter o loop
         return true;
     }
 
     setPosicao(palavra, rot, possibilidade) {
+        var xespaco;
+        var yespaco;
         switch (rot) {
             case 0:
                 //horizontal
-                let espaco = this.colunas - possibilidade % this.linhas;
-                console.log(rot + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa col " + this.colunas + "  possibilidade " + possibilidade + "  lin " + this.linhas + "  esp " + espaco);
+                xespaco = this.colunas - possibilidade % this.linhas;
 
-                if (palavra.length <= espaco) {
-                    console.log("cabe "+ palavra.length);
-                    
-                    return this.testOcupa(rot,possibilidade,palavra);
-                    
+                if (palavra.length <= xespaco) {
+
+                    return this.testOcupa(rot, possibilidade, palavra);
+
                 }
                 break;
             case 1:
                 //vertical
+                yespaco = this.linhas - possibilidade / this.colunas;
+
+                if (palavra.length <= yespaco) {
+
+                    return this.testOcupa(rot, possibilidade, palavra);
+
+                }
                 break;
             case 2:
                 //diagonal
+                xespaco = this.colunas - possibilidade % this.linhas;
+                yespaco = this.linhas - possibilidade / this.colunas;
+
+                if (palavra.length <= xespaco && palavra.length <= yespaco) {
+
+                    return this.testOcupa(rot, possibilidade, palavra);
+
+                }
+
                 break;
             default:
                 console.log("Erro de rotação");
 
-                
+
         }
         //Manter o loop
+
         return true;
 
     }
     geradorGabarito() {
         var palavra;
         var possibilidade = 0;
-        var rot = -1;
-        var percorrer = 0;
+        var rot = 0;
+        var percorrer = 1;
+        var naoinserido = true;
 
-        for (let index = 0; index <= 6; index++) {
+        for (let index = 0; index <= 2; index++) {
             do {
-                palavra = this.selecionarPalavras();
-                if (rot >= 2) rot = 0;
-                else rot++;
-                possibilidade = this.tentativas[this.tentativas.length-percorrer];
-                percorrer++;
-                console.log("loop " +rot);
-            } while (this.setPosicao(palavra, rot, possibilidade)==true && percorrer <this.tentativas.length);
-            console.log("index -------------------------------- " +index);
-            percorrer = 0;
+                if (naoinserido) palavra = this.selecionarPalavras(rot);
+                do {
+                    possibilidade = this.tentativas[this.tentativas.length - percorrer];
+                    console.log("Possibilidae " + possibilidade + " palavra " + palavra);
+                    percorrer++;
+                    naoinserido = this.setPosicao(palavra, rot, possibilidade);
+                } while (naoinserido && percorrer < this.tentativas.length);
+                console.log("nao inserido: " + naoinserido)
+                percorrer = 1;
+            } while (naoinserido);
+            if (rot >= 2) rot = 0;
+            else rot++;
+            naoinserido = true;
+            console.log("index -------------------------------- " + index + " palavra " + palavra + " rot " + rot + " possibilidade " + possibilidade + " flag " + naoinserido);
+
         }
-        console.log(this.gabarito );
         return this.gabarito;
     }
 
     vetorPosibilidades() {
         var tam = this.colunas * this.linhas;
-        console.log(this.linhas);
         var posicoes = Array(tam);
         for (let i = 0; i < tam; i++) posicoes[i] = i;
         let aux = 0, ind1, ind2;
@@ -114,16 +169,29 @@ export default class Construtor extends React.Component {
             posicoes[ind1] = posicoes[ind2];
             posicoes[ind2] = aux;
         }
-        console.log(posicoes);
         return posicoes;
     }
 
 
-    selecionarPalavras() {
-        console.log(this.props.colunas);
+    selecionarPalavras(rot) {
         var palavra;
-        var MAX = this.props.colunas;
-        var len = this.props.colunas + 1;
+        var MAX;
+        switch (rot) {
+            case 0:
+                MAX = this.props.colunas;
+                break;
+            case 1:
+                MAX = this.props.linhas;
+                break;
+            case 2:
+                MAX = this.props.colunas > this.props.linhas ? this.props.colunas : this.props.linhas;
+                break;
+            default:
+                console.log("Erro rotação")
+
+        }
+
+        var len = MAX + 1;
         var index = 0;
         while (len > MAX) {
             palavra = Data[Math.floor(Math.random() * Data.length)]["Resposta"];
@@ -131,7 +199,6 @@ export default class Construtor extends React.Component {
             index++;
         }
 
-        console.log(palavra);
         return palavra;
     }
 
@@ -140,15 +207,15 @@ export default class Construtor extends React.Component {
      * @returns {Char} "c"
      */
     geradorChar(value) {
-        console.log("olha só");
         var alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-        var conteudo = Array(value)
+        var conteudo = Array(value);
         for (let index = 0; index < value; index++) {
-            conteudo[index] = alfabeto[Math.floor(Math.random() * alfabeto.length)];
+            // conteudo[index] = alfabeto[Math.floor(Math.random() * alfabeto.length)];
+            conteudo[index] = " ";
         }
 
         for (let index = 0; index < conteudo.length; index++) {
-            if(this.gabarito[index] != 0) conteudo[index] = this.gabarito[index];            
+            if (this.gabarito[index] != 0) conteudo[index] = this.gabarito[index];
         }
         return conteudo;
     }

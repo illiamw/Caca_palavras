@@ -18,28 +18,21 @@ export default class Board extends React.Component {
     }
 
     eventoUpdate(c) {
-        console.log(this.state.gabarito[c]);
-        console.log(this.state.gabarito);
-        console.log(this.state.tentativas);
         this.state.gabarito[c] = this.state.gabarito[c] === 0 ? this.state.conteudo[c] : 0;
-        console.log(this.state.gabarito[c]);
-        console.log(this.state.gabarito);
-        console.log(this.state.tentativas);
     }
 
     /**
      * @description Função que gera os buttons de forma individual
-     * @param {int} j Quantidades de linhas do tabuleiro
-     * @param {int} i Quantidades de colunas do tabuleiro
+     * @param {int} lin Quantidades de linhas do tabuleiro
+     * @param {int} col Quantidades de colunas do tabuleiro
      * @returns {ElementDOM} <div><button>1</button></div>
      */
-    renderCells(i, j) {
-        console.log("gerando celula");
-        // {""+i+j} conversão compactada para string
+    renderCells(col, lin) {
+        // {(col*this.props.colunas + lin+ "")} conversão compactada para string
         return <Cell
-            value={this.state.conteudo[parseInt("" + j + i)]}
-            key={parseInt("" + j + i)}
-            onClick={() => { this.eventoUpdate(parseInt("" + j + i)) }}
+            value={this.state.conteudo[lin*this.props.linhas + col]}
+            key={col*this.props.colunas + lin}
+            onClick={() => { this.eventoUpdate(col*this.props.colunas + lin) }}
         />;
     }
 
@@ -49,27 +42,22 @@ export default class Board extends React.Component {
      * @param {int} col Quantidades de colunas do tabuleiro
      * @returns {ElementDOM} <div><button>1</button><button>...</button><button>lin</button></div>
      */
-    renderCol(col, lin) {
-        console.log("gerando colunas");
+    renderCol(coluna) {
         var colBoard = [];
 
-        for (let index = 0; index < col; index++) {
-            colBoard.push(this.renderCells(index, lin));
+        for (let index = 0; index < this.props.linhas; index++) {
+            colBoard.push(this.renderCells(index, coluna));
         }
-        return React.createElement('div', { className: "col-board", key: lin }, colBoard);
+        return React.createElement('div', { className: "col-board", key: coluna }, colBoard);
     }
     /**
      * @description Função que gera os a Matriz de buttons
-     * @param {int} lin Quantidades de linhas do tabuleiro
-     * @param {int} col Quantidades de colunas do tabuleiro
      * @returns {ElementDOM} <div><button>1</button><button>...</button><button>lin</button></div><div><button>1</button><button>...</button><button>lin</button></div><div><button>1</button><button>...</button><button>lin</button></div>
      */
-    renderBoard(col, lin) {
-        console.log("Gerando tabuleiro " + lin);
+    renderBoard() {
         var rowsBoard = [];
-        for (let index = 0; index < lin; index++) {
-            console.log("requendo coluna");
-            rowsBoard.push(this.renderCol(col, index));
+        for (let index = 0; index < this.props.colunas; index++) {
+            rowsBoard.push(this.renderCol(index));
         }
         return React.createElement('div', { className: "main-board" }, rowsBoard);
     }
@@ -82,8 +70,7 @@ export default class Board extends React.Component {
         return (
             <div>
                 <div className="titulo">Esse é o tabuleiro</div>
-                {console.log(this.props.linhas)}
-                {this.renderBoard(this.props.colunas, this.props.linhas)}
+                {this.renderBoard()}
             </div>
         );
     }

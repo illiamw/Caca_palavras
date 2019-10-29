@@ -12,7 +12,7 @@ export default class App extends React.Component {
     return(
       <div>
         <h1>Hello</h1>
-        <Board colunas={10} linhas={10}/>
+        <Board colunas={6} linhas={18}/>
       </div>
     );
   }

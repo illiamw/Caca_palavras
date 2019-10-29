@@ -11,10 +11,11 @@ export default class Construtor extends React.Component {
         console.log(this.tentativas);
         console.log(this.gabarito);
     }
+    /*
     criandoLevel(col, lin) {
         this.state.colunas = col;
         this.state.linhas = lin;
-    }
+    }*/
 
     testOcupa(rot, possibilidade, palavra) {
         var finalposicao;
@@ -41,13 +42,13 @@ export default class Construtor extends React.Component {
                 break;
             case 1:
                 //vertical
-                finalposicao = (palavra.length * this.colunas) + possibilidade;
+                finalposicao = (palavra.length * (this.colunas-1)) + possibilidade;
 
                 if (finalposicao > this.colunas * this.linhas) return true;
-                for (let index = inicialposicao; index < finalposicao; index += this.colunas) {
-                    if (this.gabarito[index] != 0 && this.gabarito[index] != palavra[index - possibilidade]) return true;
+                for (let index = inicialposicao, inpalavras=0; index < finalposicao; index += this.colunas, inpalavras++) {
+                    if (this.gabarito[index] != 0 && this.gabarito[index] != palavra[inpalavras]) return true;
                 }
-
+                
                 for (let index = inicialposicao, inpalavras = 0; index < finalposicao; index += this.colunas, inpalavras++) {
                     this.gabarito[index] = palavra[inpalavras];
                 }
@@ -88,9 +89,9 @@ export default class Construtor extends React.Component {
         var yespaco;
         switch (rot) {
             case 0:
-                //horizontal
-                xespaco = this.colunas - possibilidade % this.linhas;
-
+                //horizontal 
+                xespaco = this.colunas - possibilidade % this.colunas;
+                console.log(xespaco);
                 if (palavra.length <= xespaco) {
 
                     return this.testOcupa(rot, possibilidade, palavra);
@@ -99,7 +100,8 @@ export default class Construtor extends React.Component {
                 break;
             case 1:
                 //vertical
-                yespaco = this.linhas - possibilidade / this.colunas;
+                yespaco = this.linhas - Math.round(possibilidade / this.colunas);
+                console.log(yespaco);
 
                 if (palavra.length <= yespaco) {
 
@@ -110,7 +112,7 @@ export default class Construtor extends React.Component {
             case 2:
                 //diagonal
                 xespaco = this.colunas - possibilidade % this.linhas;
-                yespaco = this.linhas - possibilidade / this.colunas;
+                yespaco = this.linhas - Math.round(possibilidade / this.colunas);
 
                 if (palavra.length <= xespaco && palavra.length <= yespaco) {
 
@@ -136,7 +138,7 @@ export default class Construtor extends React.Component {
         var percorrer = 1;
         var naoinserido = true;
 
-        for (let index = 0; index <= 2; index++) {
+        for (let index = 0; index <= 3; index++) {
             do {
                 if (naoinserido) palavra = this.selecionarPalavras(rot);
                 do {
@@ -148,10 +150,11 @@ export default class Construtor extends React.Component {
                 console.log("nao inserido: " + naoinserido)
                 percorrer = 1;
             } while (naoinserido);
+            console.log("index -------------------------------- " + index + " palavra " + palavra + " rot " + rot + " possibilidade " + possibilidade + " flag " + naoinserido);
             if (rot >= 2) rot = 0;
             else rot++;
             naoinserido = true;
-            console.log("index -------------------------------- " + index + " palavra " + palavra + " rot " + rot + " possibilidade " + possibilidade + " flag " + naoinserido);
+            
 
         }
         return this.gabarito;
@@ -192,11 +195,10 @@ export default class Construtor extends React.Component {
         }
 
         var len = MAX + 1;
-        var index = 0;
+
         while (len > MAX) {
             palavra = Data[Math.floor(Math.random() * Data.length)]["Resposta"];
-            len = palavra[index].length;
-            index++;
+            len = palavra.length;
         }
 
         return palavra;
@@ -210,8 +212,8 @@ export default class Construtor extends React.Component {
         var alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
         var conteudo = Array(value);
         for (let index = 0; index < value; index++) {
-            // conteudo[index] = alfabeto[Math.floor(Math.random() * alfabeto.length)];
-            conteudo[index] = " ";
+            //conteudo[index] = alfabeto[Math.floor(Math.random() * alfabeto.length)];
+            conteudo[index] = "a";
         }
 
         for (let index = 0; index < conteudo.length; index++) {

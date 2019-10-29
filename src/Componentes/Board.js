@@ -28,9 +28,8 @@ export default class Board extends React.Component {
      * @returns {ElementDOM} <div><button>1</button></div>
      */
     renderCells(col, lin) {
-        // {(col*this.props.colunas + lin+ "")} conversão compactada para string
         return <Cell
-            value={this.state.conteudo[lin*this.props.linhas + col]}
+            value={this.state.conteudo[lin*this.props.colunas + col]}
             key={col*this.props.colunas + lin}
             onClick={() => { this.eventoUpdate(col*this.props.colunas + lin) }}
         />;
@@ -42,13 +41,14 @@ export default class Board extends React.Component {
      * @param {int} col Quantidades de colunas do tabuleiro
      * @returns {ElementDOM} <div><button>1</button><button>...</button><button>lin</button></div>
      */
-    renderCol(coluna) {
+    renderCol(linhas) {
         var colBoard = [];
 
-        for (let index = 0; index < this.props.linhas; index++) {
-            colBoard.push(this.renderCells(index, coluna));
+        for (let index = 0; index < this.props.colunas; index++) {
+            colBoard.push(this.renderCells(index, linhas));
+            console.log("Colunas: "+ index);
         }
-        return React.createElement('div', { className: "col-board", key: coluna }, colBoard);
+        return React.createElement('div', { className: "col-board", key: linhas }, colBoard);
     }
     /**
      * @description Função que gera os a Matriz de buttons
@@ -56,8 +56,9 @@ export default class Board extends React.Component {
      */
     renderBoard() {
         var rowsBoard = [];
-        for (let index = 0; index < this.props.colunas; index++) {
+        for (let index = 0; index < this.props.linhas; index++) {
             rowsBoard.push(this.renderCol(index));
+            console.log("Linha: "+ index);
         }
         return React.createElement('div', { className: "main-board" }, rowsBoard);
     }
